@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #beb8ac;
+}
+
+.resume-box {
+    position: relative;
+    width: 800px;
+    height: 1000px;
+    margin: 100px auto;
+    list-style: inside;
+    background-color: #f2f3f4;
+    box-shadow: 5px 21px 20px 20px #3d3f4238;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~Левая часть резюме~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.left-section {
+    position: relative;
+    float: left;
+    width: 250px;
+    height: 1000px;
+    background: #3D3F42;
+    color: #f2f3f4;
+}
+
+.profile {
+    position: absolute;   
+    top: 0px;
+    width: 250px;
+    height: 37%;
+}
+
+#left-decoration {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 230px solid #00A86b;
+    border-right: 250px solid transparent;
+}
+
+.avatar {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 6px solid #f2f3f4;
+    margin: 34px;
+}
+
+.full-name {
+    position: absolute;
+    width: 218px;
+    margin: 16px;
+    bottom: 70px;
+
+    font-size: 30px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.profession {
+    position: absolute;
+    bottom: 0px;
+    margin: 16px;
+    width: 218px;
+
+    font-size: 28px;
+    text-align: center;
+    color:#00A86b
+}
+
+.name-of-left-blocks {
+    color: #f2f3f4;
+    text-align: center;
+    text-decoration: overline underline;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.text-left-blocks {
+    color: #f2f3f4;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.info {
+    bottom: 322px;
+    position: absolute;
+    margin: 16px;
+    width: 218px;
+}
+
+.language {
+    bottom: 189px;
+    position: absolute;
+    margin: 16px;
+    width: 218px;
+}
+
+.quality {
+    bottom: 0px;
+    position: absolute;
+    margin: 16px;
+    width: 218px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~Правая часть резюме~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.right-section {
+    position: relative;
+    width: 550px;
+    float: left;
+    height: 1000px;
+    color: #3D3F42;
+}
+
+.name-of-right-point {
+    font-size: 24px;
+    text-align: center;
+    text-decoration: overline underline;
+    text-indent: 0px;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.about {
+    position: absolute;
+    margin: 16px;
+    width: 518px;
+    top: 40px;
+
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-indent: 40px;
+}
+
+.about-text {
+    margin: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#text-education {
+    text-indent: 40px;
+}
+
+.education {
+    position: absolute;
+    margin: 16px;
+    bottom: 427px;
+    width: 518px;
+
+
+
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.skills {
+    position: absolute;
+    margin: 16px;
+    bottom: 160px;
+    width: 518px;
+}
+
+.skill {
+    position: relative;
+    float: left;
+    margin: 16px;
+    width: 43%;
+
+    text-align: left;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~Прогресс бар ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.progress {
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+}
+
+.progress::after {
+    background-color: #00A86b;
+    border-radius: 13px;
+    height: 8px;
+    content: '';
+    display: block;
+    
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~Прогресс каждого навыка~~~~~~~~~~~~~~~~~~~~*/
+#pr-HTML::after {
+    width: 80%;
+}
+
+#pr-CSS::after {
+    width: 70%;
+}
+
+#pr-SQL::after {
+    width: 60%;
+}
+
+#pr-Git::after {
+    width: 70%;
+}
+
+#pr-Cplus::after {
+    width: 30%;
+}
+
+#pr-Linux::after {
+    width: 40%;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.hobby {
+    position: absolute;
+    width: 518px;
+    margin: 16px;
+    bottom: 30px;
+
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+
+.hobby li {
+    display: inline-block;
+}
+
